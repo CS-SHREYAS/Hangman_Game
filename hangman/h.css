@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+.container{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: repeat(2,50%);
+    height: 100vh;
+    gap: 2px;
+}
+.result{
+    background-color: lightgreen;
+    grid-row: 1/-1;
+    position: relative;
+}
+.wordBox{
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alphaBox{
+    background-color: lightskyblue;
+    display: grid;
+    grid-template-columns: repeat(7,14%);
+    justify-content: center;
+    align-items: center;
+}
+.alpha{
+    width: 4em;
+    height: 4em;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid lightsalmon;    
+    border-radius: 50px;
+}
+.alphaBox>*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    letter-spacing: 10px;
+}
+.disable{
+    background: lightsalmon;
+    color: #ee22ee;
+}
+.img1{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 200px;
+    left: 25%; 
+}
+.img2{
+    position: absolute;
+    /* height: 150px; */
+    /* width: 150px; */
+    top: 220px;
+    left: 400px;
+}
+.img3{
+    /* height: 100px;
+    width: 100px; */
+    position: absolute;
+    top: 250px;
+    left: 365px;
+    z-index: 10;
+}
+.img4{
+    position: absolute;
+    top: 355px;
+    left: 345px;
+    z-index: 5;
+}
+.img5{
+    position: absolute;
+    top: 465px;
+    left: 375px;
+    z-index: 5;
+}
+.img6{
+    position: absolute;
+    top: 395px;
+    left: 310px;
+}
+.img7{
+    position: absolute;
+    top: 395px;
+    left: 470px;
+}
+.img8{
+    position: absolute;
+    top: 510px;
+    left: 368px;
+}
+.img9{
+    position: absolute;
+    top: 510px;
+    left: 435px;
+}
